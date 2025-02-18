@@ -1,5 +1,9 @@
 project:
   type: website
+  resources:
+    - js/particles-config.json
+    - assets/Jones_2025_Resume_v2.pdf
+
 
 website:
   title: "Connor Jones"
@@ -11,22 +15,20 @@ website:
         href: about.qmd
       - text: "Projects"
         href: projects.qmd
-      - text: "Skills"
-        href: skills.qmd
       - text: "Resume"
         href: resume.qmd
-      - text: "Blog"
-        href: blog.qmd
       - text: "Contact"
         href: contact.qmd
 
 format:
   html:
-    theme:
-      - cosmo
-      - brand
-    css: styles.css
+    theme: darkly
+    page-layout: full
+    lightbox: true
+    theme-toggle: false
+    fontfamily: "Oswald, serif"
     toc: true
+    embed-resources: true
 
 
 

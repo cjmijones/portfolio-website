@@ -1,5 +1,80 @@
 ---
-title: "Home"
+title: "About the Author"
+author: "C.J. Jones"
+format:
+  html:
+    toc: false
+    toc-depth: 2
+    css: styles-about.css
+title-block-banner: false
 ---
 
-About this site
+<style>
+  .quarto-title-banner, #title-block-header {
+    display: none !important;
+  }
+</style>
+
+
+::: {.columns-container}
+::: {.column}
+
+# **Professional Summary:**
+
+As a Master’s student in Data Science and Analytics program at Georgetown University, I am currently building expertise in advanced topics like time series analysis (ARIMA, GARCH, LSTM, and Transformers for time series), deep learning (ANNs, CNNs, RNNs), and database systems (SQL, NoSQL, cloud-based DBMS). This academic experience works to complement my professional background in financial analysis and data science.
+
+In my previous role as a Senior FP&A Analyst at CharterUP Technologies, I leveraged tools like Python, Alteryx, and SQL to automate workflows, build advanced financial models, and streamline payment processing. These efforts contributed to more accurate forecasting, enhanced reporting, and better operational efficiency. I also worked at Is Inspired, LLC, where I optimized data reporting processes and developed interactive dashboards for project management and financial monitoring.
+
+# Experience
+
+**Current Position:**
+
+- **Graduate Research Assistant**: _Artificial Intelligence Measurement & Data Science Laboratory_
+  _Cleaned data, developed R/Python scripts, and implemented machine learning techniques to interpret international large scale educational assessments to understand test effectiveness and uncover patterns in student problem-solving strategies._  
+
+**Previous Roles:**
+
+- **Senior FP&A Analyst (2022 - 2024)**: _CharterUP Technologies_  
+  _Employed advanced data analytics tools like Alteryx Designer and Python to optimize financial reporting, forecasting, and payment processing. Engineered automated workflows, built financial models, and designed dashboards to support strategic decision-making and enhance operational efficiency._
+
+- **Intern Data Analyst (2020 - 2022)**: _Is Inspired LLC_  
+  _Automated and optimized data reporting processes, created and migrated data visualizations to dashboards, and developed interactive tools to enhance project management and financial monitoring for clients._
+:::
+::: {.column}
+# Education
+
+**Formal Education:**
+
+- **Master of Science in Data Science and Analytics**: _Georgetown University, Expected 2026_
+- **Bachelor of Arts in Economics**: _The University of Chicago, 2022, Specialization in Data Science_
+
+## Skills & Expertise
+
+**Core Competencies:**
+
+- Technical Skills: RStudio, JavaScript (MERN Stack), Python (Pandas/TensorFlow), SQL queries, Tableau/BI, Alteryx Designer
+- Domain Expertise: FP&A, Economics, American Politics
+
+**Soft Skills:**
+
+- Communication, teamwork, leadership qualities, project management, etc.
+
+## Interests
+
+**Professional Interests:**  
+Natural Language Processing, Neural Networks, Machine Learning in App Development, Financial Database Management
+
+**Personal Interests:**  
+Skiing, Lacrosse, Chess, Poker, Reading Fantasy & Science Fiction Novels
+
+## Projectss & Presentations
+
+**Selected Projects:**
+
+- Simple Social Media App (MERN Stack): [TakeRater](https://takeraterv1.onrender.com/)
+
+:::
+:::
+
+
+<!-- _This "About the Author" page is intended as a flexible template. Update, remove, or add sections as needed to best represent your professional and personal story._ -->

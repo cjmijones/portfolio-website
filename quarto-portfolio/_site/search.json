@@ -2,15 +2,99 @@
   {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "quarto-portfolio",
+    "title": "Connor Jones – Data Scientist",
     "section": "",
-    "text": "This is a Quarto website.\nTo learn more about Quarto websites visit https://quarto.org/docs/websites."
+    "text": "Transforming data into actionable insights with AI & ML.\n\n\n          \n\n\nView My Work     See About Me\n\n\nDownload My Resume"
   },
   {
     "objectID": "about.html",
     "href": "about.html",
-    "title": "About",
+    "title": "About the Author",
     "section": "",
-    "text": "About this site"
+    "text": "As a Master’s student in Data Science and Analytics program at Georgetown University, I am currently building expertise in advanced topics like time series analysis (ARIMA, GARCH, LSTM, and Transformers for time series), deep learning (ANNs, CNNs, RNNs), and database systems (SQL, NoSQL, cloud-based DBMS). This academic experience works to complement my professional background in financial analysis and data science.\nIn my previous role as a Senior FP&A Analyst at CharterUP Technologies, I leveraged tools like Python, Alteryx, and SQL to automate workflows, build advanced financial models, and streamline payment processing. These efforts contributed to more accurate forecasting, enhanced reporting, and better operational efficiency. I also worked at Is Inspired, LLC, where I optimized data reporting processes and developed interactive dashboards for project management and financial monitoring.\n\n\n\nCurrent Position:\n\nGraduate Research Assistant: Artificial Intelligence Measurement & Data Science Laboratory Cleaned data, developed R/Python scripts, and implemented machine learning techniques to interpret international large scale educational assessments to understand test effectiveness and uncover patterns in student problem-solving strategies.\n\nPrevious Roles:\n\nSenior FP&A Analyst (2022 - 2024): CharterUP Technologies\nEmployed advanced data analytics tools like Alteryx Designer and Python to optimize financial reporting, forecasting, and payment processing. Engineered automated workflows, built financial models, and designed dashboards to support strategic decision-making and enhance operational efficiency.\nIntern Data Analyst (2020 - 2022): Is Inspired LLC\nAutomated and optimized data reporting processes, created and migrated data visualizations to dashboards, and developed interactive tools to enhance project management and financial monitoring for clients.\n\n\n\n\n\n\nFormal Education:\n\nMaster of Science in Data Science and Analytics: Georgetown University, Expected 2026\nBachelor of Arts in Economics: The University of Chicago, 2022, Specialization in Data Science\n\n\n\nCore Competencies:\n\nTechnical Skills: RStudio, JavaScript (MERN Stack), Python (Pandas/TensorFlow), SQL queries, Tableau/BI, Alteryx Designer\nDomain Expertise: FP&A, Economics, American Politics\n\nSoft Skills:\n\nCommunication, teamwork, leadership qualities, project management, etc.\n\n\n\n\nProfessional Interests:\nNatural Language Processing, Neural Networks, Machine Learning in App Development, Financial Database Management\nPersonal Interests:\nSkiing, Lacrosse, Chess, Poker, Reading Fantasy & Science Fiction Novels\n\n\n\nSelected Projects:\n\nSimple Social Media App (MERN Stack): TakeRater"
+  },
+  {
+    "objectID": "index.html#data-scientist-machine-learning-nlp",
+    "href": "index.html#data-scientist-machine-learning-nlp",
+    "title": "Connor Jones – Data Scientist",
+    "section": "",
+    "text": "Transforming data into insights with machine learning & analytics.\nView My Work\nDownload Resume"
+  },
+  {
+    "objectID": "index.html#my-skills",
+    "href": "index.html#my-skills",
+    "title": "Connor Jones – Data Scientist",
+    "section": "",
+    "text": "💡 Python | 📊 SQL | 🧠 Deep Learning | 🌍 NLP | 📈 Data Visualization"
+  },
+  {
+    "objectID": "index.html#about-me",
+    "href": "index.html#about-me",
+    "title": "Connor Jones – Data Scientist",
+    "section": "",
+    "text": "I am a data scientist passionate about building machine learning models and uncovering insights from data. Currently working on news analytics, and always exploring new ways to use AI for impactful solutions.\nLearn More"
+  },
+  {
+    "objectID": "index.html#data-scientist",
+    "href": "index.html#data-scientist",
+    "title": "Connor Jones – Data Scientist",
+    "section": "Data Scientist",
+    "text": "Data Scientist\n\n\n\n          \n\n\nView My Work     See About Me\n\n\nDownload My Resume"
+  },
+  {
+    "objectID": "about.html#introduction",
+    "href": "about.html#introduction",
+    "title": "About the Author",
+    "section": "",
+    "text": "Professional Summary:\nAs a Master’s student in Data Science and Analytics program at Georgetown University, I am currently building expertise in advanced topics like time series analysis (ARIMA, GARCH, LSTM, and Transformers for time series), deep learning (ANNs, CNNs, RNNs), and database systems (SQL, NoSQL, cloud-based DBMS). This academic experience works to complement my professional background in financial analysis and data science.\nIn my previous role as a Senior FP&A Analyst at CharterUP Technologies, I leveraged tools like Python, Alteryx, and SQL to automate workflows, build advanced financial models, and streamline payment processing. These efforts contributed to more accurate forecasting, enhanced reporting, and better operational efficiency. I also worked at Is Inspired, LLC, where I optimized data reporting processes and developed interactive dashboards for project management and financial monitoring."
+  },
+  {
+    "objectID": "about.html#education",
+    "href": "about.html#education",
+    "title": "About the Author",
+    "section": "",
+    "text": "Formal Education:\n\nMaster of Science in Data Science and Analytics: Georgetown University, Expected 2026\nBachelor of Arts in Economics: The University of Chicago, 2022, Specialization in Data Science"
+  },
+  {
+    "objectID": "about.html#professional-experience",
+    "href": "about.html#professional-experience",
+    "title": "About the Author",
+    "section": "",
+    "text": "Current Position:\n\nGraduate Student, Georgetown University Master of Science in Data Science and Analytics Program\n\nPrevious Roles:\n\nSenior FP&A Analyst (2022 - 2024): CharterUP Technologies\nEmployed advanced data analytics tools like Alteryx Designer and Python to optimize financial reporting, forecasting, and payment processing. Engineered automated workflows, built financial models, and designed dashboards to support strategic decision-making and enhance operational efficiency.\nIntern Data Analyst (2020 - 2022): Is Inspired LLC\nAutomated and optimized data reporting processes, created and migrated data visualizations to dashboards, and developed interactive tools to enhance project management and financial monitoring for clients."
+  },
+  {
+    "objectID": "about.html#skills-expertise",
+    "href": "about.html#skills-expertise",
+    "title": "About the Author",
+    "section": "",
+    "text": "Core Competencies:\n\nTechnical Skills: RStudio, JavaScript (MERN Stack), Python (Pandas/TensorFlow), SQL queries, Tableau/BI, Alteryx Designer\nDomain Expertise: FP&A, Economics, American Politics\n\nSoft Skills:\n\nCommunication, teamwork, leadership qualities, project management, etc."
+  },
+  {
+    "objectID": "about.html#interests",
+    "href": "about.html#interests",
+    "title": "About the Author",
+    "section": "",
+    "text": "Professional Interests:\nNatural Language Processing, Neural Networks, Machine Learning in App Development, Financial Database Management\nPersonal Interests:\nSkiing, Lacrosse, Chess, Poker, Reading Fantasy & Science Fiction Novels"
+  },
+  {
+    "objectID": "about.html#projectss-presentations",
+    "href": "about.html#projectss-presentations",
+    "title": "About the Author",
+    "section": "",
+    "text": "Selected Projects:\n\nSimple Social Media App (MERN Stack): TakeRater"
+  },
+  {
+    "objectID": "about.html#contact-links",
+    "href": "about.html#contact-links",
+    "title": "About the Author",
+    "section": "",
+    "text": "Connect With Me:\n\nWebsite/Portfolio: About Me Page Link\nLinkedIn: cjmijones\nGitHub: cjmijones\nEmail: Georgetown Edu Email"
+  },
+  {
+    "objectID": "resume.html",
+    "href": "resume.html",
+    "title": "Resume",
+    "section": "",
+    "text": "Your browser does not support PDFs. Download the PDF."
   }
 ]

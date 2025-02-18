@@ -1,1 +1,128 @@
-/* css styles */
+.navbar {
+    background-color: #2D3E50 !important;  /* Dark blue background */
+}
+
+/* ################################################################################################  */
+
+/* ##################################   INDEX PAGE STYLING        #################################  */
+
+/* ################################################################################################  */
+
+/* Full-page gradient background */
+body {
+    background: linear-gradient(275deg, #2D3E50 0%, #2D3E50 20%, #8B3A32 100%);
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    overflow: hidden;
+}
+
+/* Center the hero text vertically and horizontally */
+.hero-container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    width: 100%;
+    max-width: 1000px;
+}
+
+/* Name Styling */
+.hero-container h1 {
+    font-size: 6.25em; 
+    font-weight: bold;
+    color: #ffffff;
+    text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.5);
+    margin-bottom: 0px;
+}
+
+/* Subtitle Styling */
+.hero-container h2 {
+    font-size: 4em;
+    font-style: italic;
+    color: #dddddd;
+    margin-bottom: 0px;
+}
+
+/* Mission Statement */
+.hero-subtext {
+    font-size: 1.5em;
+    color: #bbbbbb;
+    margin-bottom: 35px;
+}
+
+.social-icons {
+    margin-top: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 75px; /* Space between icons */
+    flex-wrap: nowrap; /* Prevent icons from wrapping onto multiple lines */
+}
+
+/* Style social media icons */
+.social-icons a {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    vertical-align: middle;
+}
+
+/* Adjust icon size */
+.social-icons img {
+    width: 50px !important; /* Adjust icon size */
+    height: 50px !important;
+    max-width: 100%;
+    opacity: 0.85;
+    transition: opacity 0.3s ease-in-out, transform 0.2s;
+    vertical-align: middle;
+}
+
+.social-icons img:hover {
+    opacity: 1;
+    transform: scale(1.15);
+}
+
+/* CTA Button */
+.cta-button {
+    background: #dddddd;
+    color: #000;
+    padding: 10px 20px;
+    font-size: 1em;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    display: inline-block;
+    margin-top: 5px;
+    transition: background 0.3s ease-in-out, transform 0.2s;
+}
+
+.cta-button:hover {
+    background: #ffcc00;
+    transform: scale(1.05);
+}
+
+/* Ensure particles cover the entire page */
+#particles-js {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    z-index: -1;
+}
+
+/* Hide Quarto's default header */
+#header {
+    display: none;
+}
+

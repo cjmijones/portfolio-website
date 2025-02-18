@@ -6,9 +6,9 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="author" content="C.J. Jones">
+<meta name="author" content="CJ Jones">
 
-<title>About the Author – Connor Jones</title>
+<title>Projects – Connor Jones</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -4710,7 +4710,117 @@ vertical-align: -.125em;
 }</script>
 
 
-<style type="text/css">.navbar {background-color: #2D3E50 !important; }body {background: linear-gradient(180deg, #2D3E50 0%, #2D3E50 20%, #8B3A32 100%);color: white;font-family: 'Montserrat', sans-serif;text-align: center;margin: 0;padding: 0;display: flex;flex-direction: column;align-items: center;justify-content: center;height: 100vh;overflow: hidden;}html, body {height: auto !important;min-height: 100vh;overflow-y: auto !important;}.columns-container {display: grid;grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));gap: 20px; align-items: start;text-align: left;width: 90%; max-width: 1500px; }.column {flex: 1;padding: 20px;background: rgba(255, 255, 255, 0.1);border-radius: 10px;min-width: 300px; max-width: 600px; }#header {display: none;}</style>
+<style type="text/css">.navbar {
+background-color: #2D3E50 !important; 
+}
+
+
+
+
+body {
+background: linear-gradient(275deg, #2D3E50 0%, #2D3E50 20%, #8B3A32 100%);
+color: white;
+font-family: 'Montserrat', sans-serif;
+text-align: center;
+margin: 0;
+padding: 0;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+height: 100vh;
+overflow: hidden;
+}
+
+.hero-container {
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+text-align: center;
+width: 100%;
+max-width: 1000px;
+}
+
+.hero-container h1 {
+font-size: 6.25em; font-weight: bold;
+color: #ffffff;
+text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.5);
+margin-bottom: 0px;
+}
+
+.hero-container h2 {
+font-size: 4em;
+font-style: italic;
+color: #dddddd;
+margin-bottom: 0px;
+}
+
+.hero-subtext {
+font-size: 1.5em;
+color: #bbbbbb;
+margin-bottom: 35px;
+}
+.social-icons {
+margin-top: 12px;
+display: flex;
+justify-content: center;
+align-items: center;
+gap: 75px; 
+flex-wrap: nowrap; 
+}
+
+.social-icons a {
+display: inline-flex;
+align-items: center;
+justify-content: center;
+text-decoration: none;
+vertical-align: middle;
+}
+
+.social-icons img {
+width: 50px !important; 
+height: 50px !important;
+max-width: 100%;
+opacity: 0.85;
+transition: opacity 0.3s ease-in-out, transform 0.2s;
+vertical-align: middle;
+}
+.social-icons img:hover {
+opacity: 1;
+transform: scale(1.15);
+}
+
+.cta-button {
+background: #dddddd;
+color: #000;
+padding: 10px 20px;
+font-size: 1em;
+border-radius: 5px;
+text-decoration: none;
+font-weight: bold;
+display: inline-block;
+margin-top: 5px;
+transition: background 0.3s ease-in-out, transform 0.2s;
+}
+.cta-button:hover {
+background: #ffcc00;
+transform: scale(1.05);
+}
+
+#particles-js {
+position: fixed;
+top: 0;
+left: 0;
+width: 100vw;
+height: 100vh;
+z-index: -1;
+}
+
+#header {
+display: none;
+}
+</style>
 </head>
 
 <body class="nav-fixed">
@@ -4735,11 +4845,11 @@ vertical-align: -.125em;
 <span class="menu-text">Home</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link active" href="./about.html" aria-current="page"> 
+    <a class="nav-link" href="./about.html"> 
 <span class="menu-text">About</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./projects.html"> 
+    <a class="nav-link active" href="./projects.html" aria-current="page"> 
 <span class="menu-text">Projects</span></a>
   </li>  
   <li class="nav-item">
@@ -4771,7 +4881,7 @@ vertical-align: -.125em;
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">About the Author</h1>
+<h1 class="title">Projects</h1>
 </div>
 
 
@@ -4781,7 +4891,7 @@ vertical-align: -.125em;
     <div>
     <div class="quarto-title-meta-heading">Author</div>
     <div class="quarto-title-meta-contents">
-             <p>C.J. Jones </p>
+             <p>CJ Jones </p>
           </div>
   </div>
     
@@ -4794,71 +4904,6 @@ vertical-align: -.125em;
 </header>
 
 
-<style>
-.quarto-title-banner, #title-block-header {
-display: none !important;
-}
-</style>
-<div class="columns-container">
-<div class="column">
-<section id="professional-summary" class="level1">
-<h1><strong>Professional Summary:</strong></h1>
-<p>As a Master’s student in Data Science and Analytics program at Georgetown University, I am currently building expertise in advanced topics like time series analysis (ARIMA, GARCH, LSTM, and Transformers for time series), deep learning (ANNs, CNNs, RNNs), and database systems (SQL, NoSQL, cloud-based DBMS). This academic experience works to complement my professional background in financial analysis and data science.</p>
-<p>In my previous role as a Senior FP&amp;A Analyst at CharterUP Technologies, I leveraged tools like Python, Alteryx, and SQL to automate workflows, build advanced financial models, and streamline payment processing. These efforts contributed to more accurate forecasting, enhanced reporting, and better operational efficiency. I also worked at Is Inspired, LLC, where I optimized data reporting processes and developed interactive dashboards for project management and financial monitoring.</p>
-</section>
-<section id="experience" class="level1">
-<h1>Experience</h1>
-<p><strong>Current Position:</strong></p>
-<ul>
-<li><strong>Graduate Research Assistant</strong>: <em>Artificial Intelligence Measurement &amp; Data Science Laboratory</em> <em>Cleaned data, developed R/Python scripts, and implemented machine learning techniques to interpret international large scale educational assessments to understand test effectiveness and uncover patterns in student problem-solving strategies.</em></li>
-</ul>
-<p><strong>Previous Roles:</strong></p>
-<ul>
-<li><p><strong>Senior FP&amp;A Analyst (2022 - 2024)</strong>: <em>CharterUP Technologies</em><br>
-<em>Employed advanced data analytics tools like Alteryx Designer and Python to optimize financial reporting, forecasting, and payment processing. Engineered automated workflows, built financial models, and designed dashboards to support strategic decision-making and enhance operational efficiency.</em></p></li>
-<li><p><strong>Intern Data Analyst (2020 - 2022)</strong>: <em>Is Inspired LLC</em><br>
-<em>Automated and optimized data reporting processes, created and migrated data visualizations to dashboards, and developed interactive tools to enhance project management and financial monitoring for clients.</em></p></li>
-</ul>
-</section>
-</div>
-<div class="column">
-<section id="education" class="level1">
-<h1>Education</h1>
-<p><strong>Formal Education:</strong></p>
-<ul>
-<li><strong>Master of Science in Data Science and Analytics</strong>: <em>Georgetown University, Expected 2026</em></li>
-<li><strong>Bachelor of Arts in Economics</strong>: <em>The University of Chicago, 2022, Specialization in Data Science</em></li>
-</ul>
-<section id="skills-expertise" class="level2">
-<h2 class="anchored" data-anchor-id="skills-expertise">Skills &amp; Expertise</h2>
-<p><strong>Core Competencies:</strong></p>
-<ul>
-<li>Technical Skills: RStudio, JavaScript (MERN Stack), Python (Pandas/TensorFlow), SQL queries, Tableau/BI, Alteryx Designer</li>
-<li>Domain Expertise: FP&amp;A, Economics, American Politics</li>
-</ul>
-<p><strong>Soft Skills:</strong></p>
-<ul>
-<li>Communication, teamwork, leadership qualities, project management, etc.</li>
-</ul>
-</section>
-<section id="interests" class="level2">
-<h2 class="anchored" data-anchor-id="interests">Interests</h2>
-<p><strong>Professional Interests:</strong><br>
-Natural Language Processing, Neural Networks, Machine Learning in App Development, Financial Database Management</p>
-<p><strong>Personal Interests:</strong><br>
-Skiing, Lacrosse, Chess, Poker, Reading Fantasy &amp; Science Fiction Novels</p>
-</section>
-<section id="projectss-presentations" class="level2">
-<h2 class="anchored" data-anchor-id="projectss-presentations">Projectss &amp; Presentations</h2>
-<p><strong>Selected Projects:</strong></p>
-<ul>
-<li>Simple Social Media App (MERN Stack): <a href="https://takeraterv1.onrender.com/">TakeRater</a></li>
-</ul>
-</section>
-</section>
-</div>
-</div>
-<!-- _This "About the Author" page is intended as a flexible template. Update, remove, or add sections as needed to best represent your professional and personal story._ -->
 
 
 

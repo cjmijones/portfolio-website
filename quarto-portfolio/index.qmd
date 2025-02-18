@@ -1,7 +1,40 @@
 ---
-title: "quarto-portfolio"
+title: "Connor Jones – Data Scientist"
+navbar: false
+format:
+  html:
+    theme: flatly
+    css: styles.css
+    toc: false
+    page-layout: full
 ---
 
-This is a Quarto website.
+<style>
+  .quarto-title-banner, #title-block-header {
+    display: none !important;
+  }
+</style>
 
-To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
+<div id="particles-js"></div>
+<script src="/js/particles.min.js"></script>
+<script>
+  particlesJS.load('particles-js', '/js/particles-config.json');
+</script>
+
+::: {.hero-container}
+# **Connor Jones**  
+## *Data Scientist*  
+<p class="hero-subtext"> </p>
+
+::: {.social-icons}
+[![Email](icons/email.svg){width=32px}](mailto:cjmijones@gmail.com) &nbsp;&nbsp;&nbsp; [![GitHub](icons/github.svg){width=32px}](https://github.com/cjmijones) &nbsp;&nbsp;&nbsp; [![LinkedIn](icons/linkedin.svg){width=32px}](https://linkedin.com/in/cjmijones) 
+:::
+  <p>
+    [View My Work](projects.qmd){.cta-button} &nbsp;&nbsp;&nbsp; [See About Me](about.qmd){.cta-button}
+  </p>  
+  <p>
+    [Download My Resume](resume.qmd){.cta-button}
+  </p>
+
+</div>
+:::

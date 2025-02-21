@@ -6,15 +6,129 @@ format:
     toc: false
     toc-depth: 2
     css: styles-resume.css
+title-block-banner: false
 ---
 
 <style>
-  .quarto-title-banner, #title-block-header {
-    display: none !important;
-  }
+/* Hide default Quarto title banner and header for a cleaner look */
+.quarto-title-banner,
+#title-block-header,
+#header {
+  display: none !important;
+}
+
+/* Optional: match navbar styling from your main site */
+.navbar {
+  background-color: #2D3E50 !important;  /* Dark blue background (if you have a navbar) */
+}
+
+/* Make sure the body can expand with content */
+html, body {
+  height: auto !important;
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
+}
+
+/* Background & overall text styling (matching your gradient) */
+body {
+  background: linear-gradient(180deg, #2D3E50 0%, #2D3E50 15%, #8B3A32 100%);
+  color: #fff;
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  overflow: auto;
+}
+
+/* Main container styling */
+.container {
+  max-width: 1000px;
+  margin: 2rem auto;
+  padding: 0 1rem;
+  color: #fff;
+  background-color: transparent;
+  box-shadow: none;
+  border-radius: 8px;
+}
+
+/* Header styling */
+header {
+  margin-bottom: 2rem;
+}
+header h1 {
+  font-size: 3.2rem;
+  margin-bottom: 0.25rem;
+  letter-spacing: 1px;
+}
+header p {
+  font-size: 1.6rem;
+  color: #ddd;
+  margin: 0;
+}
+
+
+/* "Card" styling for the resume section */
+section {
+  background-color: rgba(255,255,255,0.07);
+  padding: 2rem;
+  margin-bottom: 2rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.3);
+  text-align: center;
+}
+
+/* Headings */
+section h1 {
+  font-size: 2.8rem;
+  margin-bottom: 0.25rem;
+  letter-spacing: 1px;
+}
+section p {
+  font-size: 1.3rem;
+  color: #ddd;
+}
+
+/* Button styling for Download PDF */
+.resume-download-btn {
+  display: inline-block;
+  background-color: #FFC107;
+  color: #2D3E50;
+  text-decoration: none;
+  padding: 0.75rem 1.5rem;
+  border-radius: 4px;
+  font-weight: bold;
+  transition: background-color 0.2s ease;
+  margin-bottom: 2rem;
+}
+.resume-download-btn:hover {
+  background-color: #FFD54F;
+}
+
+/* iFrame container to show the PDF */
+.iframe-container {
+  width: 100%;
+  height: 800px; /* Adjust as desired */
+  border: none;
+}
 </style>
 
+<div class="container">
 
-:::{.column-screen}
-<iframe src="/assets/Jones_2025_Resume_v2.pdf" style="width:100vw; height:calc(100vh - 20px);; border:none;"></iframe>
-:::
+  <header class="author-header">
+    <div class="author-content"> <h1>Resume</h1> <p>A quick look at my professional profile and experience</p> </div>
+  </header>
+
+  <section>
+    <!-- This is the explicit button link to download the PDF -->
+    <a class="resume-download-btn" 
+       href="/assets/Jones_2025_Resume_v2.pdf" 
+       download>
+       Download PDF
+    </a>
+    <!-- The embedded PDF frame -->
+    <div> <iframe class="iframe-container" src="/assets/Jones_2025_Resume_v2.pdf"></iframe></div>
+  </section>
+
+</div>

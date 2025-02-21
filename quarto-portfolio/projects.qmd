@@ -1,10 +1,229 @@
 ---
 title: "Projects"
-author: "CJ Jones"
+author: "C.J. Jones"
 format:
   html:
-    toc: false
+    toc: true
     toc-depth: 2
-    css: styles.css
+title-block-banner: false
 ---
 
+<style>
+/* Hide default title banner elements */
+.quarto-title-banner,
+#title-block-header {
+  display: none !important;
+}
+
+/* Hide Quarto's default header */
+#header {
+  display: none;
+}
+
+/* Navbar styling */
+.navbar {
+  background-color: #2D3E50 !important;  /* Dark blue background */
+}
+
+/* Make sure the body can expand with content */
+html, body {
+  height: auto !important;
+  min-height: 100vh;
+  overflow-y: auto !important;
+  margin: 0;
+  padding: 0;
+}
+
+/* Background & overall text styling */
+body {
+  background: linear-gradient(180deg, #2D3E50 0%, #2D3E50 35%, #8B3A32 100%);
+  color: #fff;
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  overflow: auto;
+}
+
+/* Main container styling */
+.container {
+  max-width: 1300px;
+  margin: 2rem auto;
+  padding: 0 1rem;
+  color: #fff;
+  background-color: transparent; /* No background for the main container */
+  box-shadow: none;
+  border-radius: 8px;
+}
+
+/* Header styling */
+header {
+  margin-bottom: 2rem;
+}
+header h1 {
+  font-size: 3.2rem;
+  margin-bottom: 0.25rem;
+  letter-spacing: 1px;
+}
+header p {
+  font-size: 1.6rem;
+  margin: 0;
+}
+
+/* Section “card” styling */
+section {
+  background-color: rgba(255,255,255,0.07);
+  padding: 2rem;
+  margin-bottom: 2rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.3);
+  text-align: left; /* Left-align text for readability */
+}
+section h2 {
+  display: inline-block;
+  margin-bottom: 1rem;
+  font-size: 2rem;
+  color: #FFC107;
+  text-transform: uppercase;
+  border-bottom: 2px solid #FFC107;
+  letter-spacing: 0.5px;
+}
+section h3 {
+  margin-top: 1.5rem;
+  font-size: 1.4rem;
+  color: #FFC107;
+}
+
+/* Improve paragraph and list readability */
+p, li {
+  line-height: 1.7;
+  margin-bottom: 0.75rem;
+}
+
+/* List styling */
+ul {
+  list-style-type: disc;
+  margin: 0 0 1rem 1.5rem;
+  padding: 0;
+}
+
+/* Link styling */
+a {
+  color: #FFC107;
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+a:hover {
+  text-decoration: underline;
+  color: #FFD54F;
+}
+
+/* If you don't need the profile picture styling, you can remove these below */
+.profile-picture {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;       /* Ensures the image is cropped cleanly */
+  border-radius: 50%;      /* Circular shape */
+  border: 3px solid #FFC107; /* Optional border color */
+  margin: 1rem auto 0;     /* Center the image with some spacing */
+  float: left;
+  display: block;          /* So margin auto works horizontally */
+}
+
+.author-header {
+  float: center;
+  text-align: center;
+  align-items: center;
+  max-width: 800px;
+  margin: auto;
+  margin-bottom: 25;
+}
+
+.author-content {
+  float: center;
+  display: block;
+  align-items: center;
+  margin: auto;
+  gap: 0px; /* Adjusts spacing between text and image */
+}
+
+
+</style>
+
+<div class="container">
+
+  <header class="author-header">
+    <div class="author-content"> <div> <h1>Highlighted Projects</h1> <p> A showcase of my development work &amp; skill-building initiatives </p> </div> </div>
+  </header>
+
+  <!-- Project 1: MERN Social Media -->
+  <section id="mern-social-media">
+    <h2>MERN Social Media Application</h2>
+    <p><strong>Project Link:</strong> <a href="https://takeraterv1.onrender.com/">TakeRater_v1</a></p>
+    <p><strong>Description:</strong></p>
+    <p>
+      Developed a basic social media clone using the JavaScript MERN stack (MongoDB, Express.js, React, Node.js) that enables user sign-up, post creation, editing, deletion, liking, and account following. Features include user authentication, dynamic post feeds, and real-time interactions.
+    </p>
+    <p><strong>Skills Utilized &amp; Developed:</strong></p>
+    <ul>
+      <li>MERN Stack (MongoDB, Express.js, React, Node.js)</li>
+      <li>RESTful API design, authentication, and session management</li>
+      <li>Real-time web functionality &amp; state management</li>
+      <li>Front-end UI/UX design using React</li>
+    </ul>
+  </section>
+
+  <!-- Project 2: JavaScript Notes & Tickets Application -->
+  <section id="js-notes-tickets">
+    <h2>JavaScript Notes &amp; Tickets Web App</h2>
+    <p><strong>Project Link:</strong> <a href="https://cjnotes.onrender.com/">CJ Notes</a></p>
+    <p><strong>Description:</strong></p>
+    <p>
+      Programmed a fully functional JavaScript notes and tickets web application with user authentication, CRUD operations, and real-time updates. Utilized the MERN stack, API integration, and state management procedures for a responsive and efficient user experience.
+    </p>
+    <p><strong>Skills Utilized &amp; Developed:</strong></p>
+    <ul>
+      <li>MERN Stack (MongoDB, Express.js, React, Node.js)</li>
+      <li>User authentication and secure session handling</li>
+      <li>Implementing CRUD functionality and database operations</li>
+      <li>Real-time data updates &amp; React state management</li>
+    </ul>
+  </section>
+
+  <!-- Project 3: Quarto Website -->
+  <section id="quarto-website">
+    <h2>Quarto Website Project</h2>
+    <p><strong>Project Link:</strong> <a href="cjs-portfolio.onrender.com">CJ's Portfolio</a></p>
+    <p><strong>Description:</strong></p>
+    <p>
+      This Quarto website project showcases my ability to combine HTML, CSS, and Quarto’s Markdown-based workflows. The site features a custom layout, styled sections, and an organized navigation structure.
+    </p>
+    <p><strong>Skills Utilized &amp; Developed:</strong></p>
+    <ul>
+      <li>Quarto publishing platform</li>
+      <li>HTML &amp; CSS custom styling</li>
+      <li>Markdown and document rendering</li>
+      <li>Responsive design practices</li>
+    </ul>
+  </section>
+
+  <!-- Project 4: Gov Tracker Website (Under Development) -->
+  <section id="gov-tracker">
+    <h2>Gov Tracker Website</h2>
+    <p><strong>Project Link:</strong> <a href="gov-tracker.onrender.com">Gov Tracker</a></p>
+    <p><strong>Description:</strong></p>
+    <p>
+      This project is in development. It will pull executive orders from the Federal Register API, then use ChatGPT to summarize each order. A Retrieval-Augmented Generation (RAG) pipeline is planned to allow robust querying and cross-referencing of the orders.
+    </p>
+    <p><strong>Skills Utilized &amp; Developed (Planned):</strong></p>
+    <ul>
+      <li>API integration with Federal Register</li>
+      <li>Building a ChatGPT-based summarization workflow</li>
+      <li>Designing a RAG pipeline for interactive queries</li>
+      <li>Front-end development for user-friendly access to executive orders</li>
+    </ul>
+  </section>
+
+</div>

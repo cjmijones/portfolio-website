@@ -3,78 +3,217 @@ title: "About the Author"
 author: "C.J. Jones"
 format:
   html:
-    toc: false
+    toc: true
     toc-depth: 2
-    css: styles-about.css
 title-block-banner: false
 ---
 
 <style>
-  .quarto-title-banner, #title-block-header {
-    display: none !important;
-  }
+/* Hide default title banner elements */
+.quarto-title-banner,
+#title-block-header {
+  display: none !important;
+}
+
+/* Hide Quarto's default header */
+#header {
+  display: none;
+}
+
+/* Navbar styling */
+.navbar {
+  background-color: #2D3E50 !important;  /* Dark blue background */
+}
+
+/* Make sure the body can expand with content */
+html, body {
+  height: auto !important;
+  min-height: 100vh;
+  overflow-y: auto !important;
+  margin: 0;
+  padding: 0;
+}
+
+/* Background & overall text styling */
+body {
+  background: linear-gradient(180deg, #2D3E50 0%, #2D3E50 35%, #8B3A32 100%);
+  color: #fff;
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  overflow: auto;
+}
+
+/* Main container styling */
+.container {
+  max-width: 1000px;
+  margin: 2rem auto;
+  padding: 0 1rem;
+  color: #fff;
+  background-color: transparent; /* No background for the main container */
+  box-shadow: none;
+  border-radius: 8px;
+}
+
+/* Header styling */
+header {
+  margin-bottom: 2rem;
+}
+header h1 {
+  font-size: 3.2rem;
+  margin-bottom: 0.25rem;
+  letter-spacing: 1px;
+}
+header p {
+  font-size: 1.6rem;
+  color: #ddd;
+  margin: 0;
+}
+
+/* Section “card” styling */
+section {
+  background-color: rgba(255,255,255,0.07);
+  padding: 2rem;
+  margin-bottom: 2rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.3);
+  text-align: left; /* Let’s left-align text inside the card for better readability */
+}
+section h2 {
+  display: inline-block;
+  margin-bottom: 1rem;
+  font-size: 2rem;
+  color: #FFC107;
+  text-transform: uppercase;
+  border-bottom: 2px solid #FFC107;
+  letter-spacing: 0.5px;
+}
+section h3 {
+  margin-top: 1.5rem;
+  font-size: 1.4rem;
+  color: #FFC107;
+}
+
+/* Improve paragraph and list readability */
+p, li {
+  line-height: 1.7;
+  margin-bottom: 0.75rem;
+}
+
+.profile-picture {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;       /* Ensures the image is cropped cleanly */
+  border-radius: 50%;      /* Circular shape */
+  border: 3px solid #FFC107; /* Optional border color */
+  margin: 1rem auto 0;     /* Center the image with some spacing */
+  float: left;
+  display: block;          /* So margin auto works horizontally */
+}
+
+.author-header {
+  text-align: center;
+  align-items: center;
+  max-width: 800px;
+  position: relative;
+}
+
+.author-content {
+  display: flex;
+  align-items: center;
+  position: relative;
+  left: -100;
+  gap: 0px; /* Adjusts spacing between text and image */
+}
+
+/* List styling */
+ul {
+  list-style-type: disc;
+  margin: 0 0 1rem 1.5rem;
+  padding: 0;
+}
+
+/* Link styling */
+a {
+  color: #FFC107;
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+a:hover {
+  text-decoration: underline;
+  color: #FFD54F;
+}
 </style>
 
+<div class="container">
 
-::: {.columns-container}
-::: {.column}
+  <header class="author-header">
+    <div class="author-content"> <img class="profile-picture" src="assets/sf_selfie_pic.jpg" alt="Profile Picture">  <div> <h1>About the Author</h1> <p> C.J. Jones </p> </div> </div>
+  </header>
 
-# **Professional Summary:**
+  <section id="professional-summary">
+    <h2>Professional Summary</h2>
+    <p>
+      As a Master’s student in the Data Science and Analytics program at Georgetown University, I am currently building expertise in advanced topics like time series analysis (ARIMA, GARCH, LSTM, and Transformers for time series), deep learning (ANNs, CNNs, RNNs), and database systems (SQL, NoSQL, cloud-based DBMS). This academic experience complements my professional background in financial analysis and data science.
+    </p>
+    <p>
+      In my previous role as a Senior FP&A Analyst at CharterUP Technologies, I leveraged tools like Python, Alteryx, and SQL to automate workflows, build advanced financial models, and streamline payment processing. These efforts contributed to more accurate forecasting, enhanced reporting, and better operational efficiency. I also worked at Is Inspired, LLC, where I optimized data reporting processes and developed interactive dashboards for project management and financial monitoring.
+    </p>
+  </section>
 
-As a Master’s student in Data Science and Analytics program at Georgetown University, I am currently building expertise in advanced topics like time series analysis (ARIMA, GARCH, LSTM, and Transformers for time series), deep learning (ANNs, CNNs, RNNs), and database systems (SQL, NoSQL, cloud-based DBMS). This academic experience works to complement my professional background in financial analysis and data science.
+  <section id="experience">
+    <h2>Experience</h2>
+    <h3>Current Position</h3>
+    <p>
+      <strong>Graduate Research Assistant</strong> at <em>Artificial Intelligence Measurement &amp; Data Science Laboratory</em>
+    </p>
+    <p>
+      Clean data, develop R/Python scripts, and implement machine learning techniques to interpret international large-scale educational assessments, understand test effectiveness, and uncover patterns in student problem-solving strategies.
+    </p>
+    <h3>Previous Roles</h3>
+    <p>
+      <strong>Senior FP&amp;A Analyst (2022 - 2024)</strong> at <em>CharterUP Technologies</em>
+    </p>
+    <p>
+      Employed advanced data analytics tools like Alteryx Designer and Python to optimize financial reporting, forecasting, and payment processing. Engineered automated workflows, built financial models, and designed dashboards to support strategic decision-making and enhance operational efficiency.
+    </p>
+    <p>
+      <strong>Intern Data Analyst (2020 - 2022)</strong> at <em>Is Inspired LLC</em>
+    </p>
+    <p>
+      Automated and optimized data reporting processes, created and migrated data visualizations to dashboards, and developed interactive tools to enhance project management and financial monitoring for clients.
+    </p>
+  </section>
 
-In my previous role as a Senior FP&A Analyst at CharterUP Technologies, I leveraged tools like Python, Alteryx, and SQL to automate workflows, build advanced financial models, and streamline payment processing. These efforts contributed to more accurate forecasting, enhanced reporting, and better operational efficiency. I also worked at Is Inspired, LLC, where I optimized data reporting processes and developed interactive dashboards for project management and financial monitoring.
+  <section id="education-skills">
+    <h2>Education</h2>
+    <ul>
+      <li><strong>Master of Science in Data Science and Analytics</strong> – Georgetown University, Expected 2026</li>
+      <li><strong>Bachelor of Arts in Economics</strong> – The University of Chicago</li>
+    </ul>
 
-# Experience
+    <h2>Skills &amp; Expertise</h2>
+    <h3>Core Competencies</h3>
+    <ul>
+      <li>Technical Skills: RStudio, JavaScript (MERN Stack), Python (Pandas/TensorFlow), SQL queries, Tableau/BI, Alteryx Designer</li>
+      <li>Domain Expertise: FP&amp;A, Economics, American Politics</li>
+    </ul>
 
-**Current Position:**
+    <h3>Soft Skills</h3>
+    <ul>
+      <li>Communication, teamwork, leadership, project management</li>
+    </ul>
+  </section>
 
-- **Graduate Research Assistant**: _Artificial Intelligence Measurement & Data Science Laboratory_
-  _Cleaned data, developed R/Python scripts, and implemented machine learning techniques to interpret international large scale educational assessments to understand test effectiveness and uncover patterns in student problem-solving strategies._  
+  <section id="interests-projects">
+    <h2>Interests</h2>
+    <ul>
+      <li><strong>Professional Interests:</strong> Natural Language Processing, Neural Networks, Machine Learning in App Development, Database Management</li>
+      <li><strong>Personal Interests:</strong> Skiing, Lacrosse, Chess, Poker, Reading Fantasy &amp; Science Fiction Novels</li>
+    </ul>
+  </section>
 
-**Previous Roles:**
-
-- **Senior FP&A Analyst (2022 - 2024)**: _CharterUP Technologies_  
-  _Employed advanced data analytics tools like Alteryx Designer and Python to optimize financial reporting, forecasting, and payment processing. Engineered automated workflows, built financial models, and designed dashboards to support strategic decision-making and enhance operational efficiency._
-
-- **Intern Data Analyst (2020 - 2022)**: _Is Inspired LLC_  
-  _Automated and optimized data reporting processes, created and migrated data visualizations to dashboards, and developed interactive tools to enhance project management and financial monitoring for clients._
-:::
-::: {.column}
-# Education
-
-**Formal Education:**
-
-- **Master of Science in Data Science and Analytics**: _Georgetown University, Expected 2026_
-- **Bachelor of Arts in Economics**: _The University of Chicago, 2022, Specialization in Data Science_
-
-## Skills & Expertise
-
-**Core Competencies:**
-
-- Technical Skills: RStudio, JavaScript (MERN Stack), Python (Pandas/TensorFlow), SQL queries, Tableau/BI, Alteryx Designer
-- Domain Expertise: FP&A, Economics, American Politics
-
-**Soft Skills:**
-
-- Communication, teamwork, leadership qualities, project management, etc.
-
-## Interests
-
-**Professional Interests:**  
-Natural Language Processing, Neural Networks, Machine Learning in App Development, Financial Database Management
-
-**Personal Interests:**  
-Skiing, Lacrosse, Chess, Poker, Reading Fantasy & Science Fiction Novels
-
-## Projectss & Presentations
-
-**Selected Projects:**
-
-- Simple Social Media App (MERN Stack): [TakeRater](https://takeraterv1.onrender.com/)
-
-:::
-:::
-
-
-<!-- _This "About the Author" page is intended as a flexible template. Update, remove, or add sections as needed to best represent your professional and personal story._ -->
+</div>

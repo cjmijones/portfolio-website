@@ -18,8 +18,6 @@ website:
         href: projects.qmd
       - text: "Resume"
         href: resume.qmd
-      - text: "Contact"
-        href: contact.qmd
 
 format:
   html:

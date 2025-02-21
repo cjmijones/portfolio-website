@@ -5,7 +5,6 @@ format:
   html:
     toc: false
     toc-depth: 2
-    css: styles-resume.css
 title-block-banner: false
 ---
 

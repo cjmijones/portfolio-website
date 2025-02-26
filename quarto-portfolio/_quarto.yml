@@ -3,6 +3,7 @@ project:
   resources:
     - js/particles-config.json
     - assets/Jones_2025_Resume_v2.pdf
+    - assets/Connor_Jones_Resume.pdf
     - assets/sf_selfie_pic.jpg
 
 

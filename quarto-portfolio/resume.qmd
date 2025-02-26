@@ -122,12 +122,12 @@ section p {
   <section>
     <!-- This is the explicit button link to download the PDF -->
     <a class="resume-download-btn" 
-       href="/assets/Jones_2025_Resume_v2.pdf" 
+       href="/assets/Connor_Jones_Resume.pdf" 
        download>
        Download PDF
     </a>
     <!-- The embedded PDF frame -->
-    <div> <iframe class="iframe-container" src="/assets/Jones_2025_Resume_v2.pdf"></iframe></div>
+    <div> <iframe class="iframe-container" src="/assets/Connor_Jones_Resume.pdf"></iframe></div>
   </section>
 
 </div>

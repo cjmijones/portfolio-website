@@ -29,9 +29,9 @@ format:
 ::: {.social-icons}
 [![Email](icons/email.svg){width=32px}](mailto:cjmijones@gmail.com) &nbsp;&nbsp;&nbsp; [![GitHub](icons/github.svg){width=32px}](https://github.com/cjmijones) &nbsp;&nbsp;&nbsp; [![LinkedIn](icons/linkedin.svg){width=32px}](https://linkedin.com/in/cjmijones) 
 :::
-  <p>
+  <!-- <p>
     [View My Work](projects.qmd){.cta-button} &nbsp;&nbsp;&nbsp; [See About Me](about.qmd){.cta-button}
-  </p>  
+  </p>   -->
   <p>
     [Download My Resume](resume.qmd){.cta-button}
   </p>
